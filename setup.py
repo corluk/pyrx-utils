@@ -7,5 +7,5 @@ setup(
    author='Osman Corluk',
    author_email='corluk@hotmail.com',
    packages=find_packages(),  #same as name
-   install_requires=[], #external packages as dependencies
+   install_requires=[], #external packages as dependencies 
 )
