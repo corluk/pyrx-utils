@@ -1,7 +1,7 @@
 from setuptools import setup ,find_packages
 
 setup(
-   name='pyrx_utils',
+   name='pyrxutils',
    version='1.0',
    description='reactive extesions',
    author='Osman Corluk',
