@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup ,find_packages
 
 setup(
    name='pyrx-utils',
@@ -6,6 +6,6 @@ setup(
    description='reactive extesions',
    author='Osman Corluk',
    author_email='corluk@hotmail.com',
-   packages=['pyrx-utils'],  #same as name
+   packages=find_packages(),  #same as name
    install_requires=[], #external packages as dependencies
 )
